@@ -14,41 +14,40 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mongo"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": false
   },
   "Advertiser": {
-    "dataSource": "db",
-    "public": true
+    "dataSource": "mongo"
   },
   "Advert": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": true
   },
   "Category": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": true
   },
   "Message": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": true
   }
 }
