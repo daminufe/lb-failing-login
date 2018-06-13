@@ -38,5 +38,9 @@
   "Advertiser": {
     "dataSource": "db",
     "public": true
+  },
+  "Advert": {
+    "dataSource": "db",
+    "public": true
   }
 }
