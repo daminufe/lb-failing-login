@@ -42,5 +42,9 @@
   "Advert": {
     "dataSource": "db",
     "public": true
+  },
+  "Category": {
+    "dataSource": "db",
+    "public": true
   }
 }
